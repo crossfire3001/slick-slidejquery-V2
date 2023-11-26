@@ -1,0 +1,103 @@
+@media screen and (min-width: 320px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*=============== FEEDBACK ===============*/
+    .feedback .card {
+        background-image: url("../img/feedback/bg.png");
+        background-size: cover;
+        max-width: 290px;
+    }
+
+    .feedback .card__overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(35, 38, 28, 0.9);
+        min-height: 268px;
+    }
+
+    .feedback .card__inner {
+        max-width: 250px;
+    }
+
+    .feedback .card__header {
+
+    }
+
+    .feedback .card__header-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    .feedback .card__socials-icons {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 32px;
+    }
+
+    .feedback .card__title {
+        font-family: FormularBold, sans-serif;
+        font-size: 22px;
+    }
+
+    .feedback .card__subtitle {
+        font-family: TrebuchetMS, sans-serif;
+        font-size: 12px;
+        margin-bottom: 21px;
+    }
+
+    .feedback .card__subtitle-favorites {
+        margin-bottom: 5px;
+    }
+
+    .feedback .card__subtitle-food {
+    }
+
+    .feedback .card__text {
+        font-family: TrebuchetMS, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /*=============== FEEDBACK ===============*/
+    .feedback .card {
+        max-width: 330px;
+    }
+
+    .feedback .card__overlay {
+        min-height: 322px;
+    }
+
+    .feedback .card__inner {
+        max-width: 278px;
+    }
+
+    .feedback .card__header-content {
+        margin-bottom: 22px;
+    }
+
+    .feedback .card__socials-icons {
+        display: flex;
+        gap: 14px;
+        margin-bottom: 22px;
+    }
+
+    .feedback .card__title {
+        font-size: 25px;
+    }
+
+    .feedback .card__subtitle {
+        font-size: 14px;
+        margin-bottom: 33px;
+    }
+
+    .feedback .card__text {
+        font-size: 14px;
+    }
+}

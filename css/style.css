@@ -1,3 +1,37 @@
+/*=============== FONTS ===============*/
+@font-face {
+  font-family: TrebuchetMS;
+  src: url("../fonts/trebuchetms.ttf");
+}
+
+@font-face {
+  font-family: FormularBold;
+  src: url("../fonts/formular-bold-trial.otf");
+}
+
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(35, 30, 28);
+  color: #fff;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 200px auto;
+}
+
+
