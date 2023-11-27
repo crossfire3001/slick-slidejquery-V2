@@ -11,6 +11,7 @@
     max-width: 290px;
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 20px;
   }
 
   .feedback .card__overlay {
@@ -67,6 +68,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   /*=============== FEEDBACK ===============*/
   .feedback .card {
     max-width: 330px;
