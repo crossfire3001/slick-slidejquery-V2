@@ -9,6 +9,8 @@
     background-image: url("../img/feedback/bg.png");
     background-size: cover;
     max-width: 290px;
+    border-radius: 5px;
+    overflow: hidden;
   }
 
   .feedback .card__overlay {

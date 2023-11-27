@@ -33,3 +33,16 @@ li {
   max-width: 1170px;
   margin: 200px auto;
 }
+
+/*=============== SLIDER MENU ===============*/
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider__item {
+  text-align: center;
+}
